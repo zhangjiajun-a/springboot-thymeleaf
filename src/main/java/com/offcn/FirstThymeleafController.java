@@ -17,7 +17,6 @@ public class FirstThymeleafController {
     public String indexPage(Model model) {
         String message = "Hello, Thymeleaf!";
         model.addAttribute("message", message);
-        System.out.println("123");
         return "index";
     }
 }
